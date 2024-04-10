@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: #385185;
+}
+
+#loginForm {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #385185;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #385185;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #2f4871;
+}
+
+#forgotPassword {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+#forgotPassword a {
+    color: #385185;
+    text-decoration: none;
+}
+
+#facebookLogin {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #385185;
+}
+
+#facebookText {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #385185;
+}
+
+#signUpText {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #385185;
+}
+
+#signUpText a {
+    color: #385185;
+    text-decoration: none;
+}
